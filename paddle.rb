@@ -11,13 +11,13 @@ class Paddle
 
 
     def move_up
-        if @y > 30
+        if @y > 0
             @y -= 5
         end
     end
 
     def move_down
-        if @y < @window.height - 30
+        if @y < @window.height - 60
             @y += 5
         end
     end
